@@ -1,0 +1,27 @@
+body {
+    width: 500px; /* Change this value to your desired width */
+    height: 200px; /* Change this value to your desired height */
+    text-align: center;
+}
+
+#countdown {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#shutdownTime {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 3em; /* Adjust as needed */
+}
+
+.inline-container > * {
+    display: inline;
+}

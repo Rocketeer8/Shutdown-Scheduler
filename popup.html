@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="inline-container" id = "sd-container">
+        <h2>Shutdown Time: </h2>
+        <input type="number" placeholder="HH" id="hours" min="0" max="23" required>
+        <h2>:</h2>
+        <input type="number" placeholder="MM" id="minutes" min="0" max="59" required>
+        <button id="setTimeButton">Set Time</button>
+    </div>
+
+    <div class="inline-container" id = "ro-container">
+        <h2>Reopen Time</h2>
+        <input type="number" placeholder="HH" id="rhours" min="0" max="23" required>
+        <h2>:</h2>
+        <input type="number" placeholder="MM" id="rminutes" min="0" max="59" required>
+        <button id="setReopenTimeButton">Set Time</button>
+    </div>
+
+    <div id="shutdownTime"> </div>
+    <div id="reopenTime"> </div>
+    <div id="countdown"> </div>
+    <script src="content.js"></script>
+</body>
+</html>
